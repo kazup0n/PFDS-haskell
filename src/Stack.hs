@@ -1,6 +1,5 @@
 module Stack where
     import Data.List
-    import Prelude hiding ((++))
 
     class Stack s where
         empty :: s a
@@ -31,5 +30,7 @@ module Stack where
         update (LS (x:xs)) 0 y = cons y (LS xs)
         update (LS (x:xs)) i y = cons x (update (LS xs) (i-1) y)
 
-        suffixes (LS xs) = LS [LS xs]
+        -- quiz 2.1
+        suffixes (LS []) = LS [LS []]
+        suffixes xs = cons xs (suffixes (Stack.tail xs))
 
