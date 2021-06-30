@@ -1,1 +1,1 @@
-# PFDS-haskell
+# pfds-haskell
