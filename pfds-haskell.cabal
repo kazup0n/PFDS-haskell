@@ -53,6 +53,7 @@ test-suite pfds-haskell-test
   main-is: Spec.hs
   other-modules:
       StackSpec
+      TreeSpec
       Paths_pfds_haskell
   hs-source-dirs:
       test
