@@ -27,6 +27,7 @@ library
   exposed-modules:
       Lib
       Stack
+      Tree
   other-modules:
       Paths_pfds_haskell
   hs-source-dirs:
