@@ -49,9 +49,27 @@ insert3 x t = fromMaybe t (insert3' t)
       | otherwise = Just $ T (insert3 x left)  y right
 
 -- exersise 2.5 (a)
-complete :: Ord a => a -> Int -> Tree a
+complete :: a -> Int -> Tree a
 complete x 1 = T E x E
 complete x n | n <= 0 = E
              | otherwise = T sub x sub
   where
     sub = complete x (n - 1)
+
+-- exersise 2.5 (b)
+-- この関数を拡張して、任意のサイズの平衡木を作るようにしよう。
+-- これらの木は常に 完全な二分木とは限らないが、できる限り平衡であるべきである。
+-- すなわち、与えられたノードに対し、2 つの部分木のサイズの差はたかだか 1 である。
+-- この関数はO(log n) 時間で実行できるはずだ。
+-- (ヒント: サイズ m が与えられたとき、サイズ mの木とサイズ m+1 の木のペアを作る補助関数 create2 を用いるとよい。)
+balanced :: a -> Int -> Tree a
+balanced _ 0 = E
+balanced x 1 = T E x E
+balanced x n = let (big, small) = create2 x (div n 2 - 1)
+                in if even n then T big x small
+                   else T big x big
+
+
+create2 :: a -> Int -> (Tree a, Tree a)
+create2 x 0 = (T E x E, E)
+create2 x m = (balanced x (m+1), balanced x m)

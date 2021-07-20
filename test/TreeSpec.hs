@@ -1,7 +1,7 @@
 module TreeSpec (spec) where
 
 import Test.Hspec
-import Tree ( insert,member, member2, insert2, insert3, complete, Tree(E, T) )
+import Tree ( insert,member, member2, insert2, insert3, complete, balanced, Tree(E, T) )
   
 spec :: Spec 
 spec = do 
@@ -78,3 +78,21 @@ spec = do
       complete 1 1 `shouldBe` T E 1 E
     it "returns a tree which node is filled with 1 when d = 3" $
       complete 1 3 `shouldBe` T (T (T E 1 E) 1 (T E 1 E)) 1 (T (T E 1 E) 1 (T E 1 E))
+
+  describe "balanced" $ do
+    it "return E when n = 0" $
+      balanced 1 0 `shouldBe` E
+    it "return E when n = 1" $
+      balanced 1 1 `shouldBe` T E 1 E
+    it "return E when n = 2" $
+      balanced 1 2 `shouldBe` T (T E 1 E) 1 E
+    it "return E when n = 3" $
+      balanced 1 3 `shouldBe` T (T E 1 E) 1 (T E 1 E)
+    it "return E when n = 4" $
+      balanced 1 4 `shouldBe` T (T (T E 1 E) 1 E) 1 (T E 1 E)
+    it "return E when n = 5" $
+      balanced 1 5 `shouldBe` T (T (T E 1 E) 1 E) 1 (T (T E 1 E) 1 E)
+    it "return E when n = 6" $
+      balanced 1 6 `shouldBe` T (T (T E 1 E) 1 (T E 1 E)) 1 (T (T E 1 E) 1 E)
+    it "return E when n = 7" $
+      balanced 1 7 `shouldBe` T (T (T E 1 E) 1 (T E 1 E)) 1 (T (T E 1 E) 1 (T E 1 E))
