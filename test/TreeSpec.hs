@@ -1,7 +1,7 @@
 module TreeSpec (spec) where
 
 import Test.Hspec
-import Tree ( insert,member, member2, insert2, insert3, Tree(E, T) )
+import Tree ( insert,member, member2, insert2, insert3, complete, Tree(E, T) )
   
 spec :: Spec 
 spec = do 
@@ -56,16 +56,25 @@ spec = do
      member 3 (T E 1 (T E 2 E)) `shouldBe` False
     it "return False when left branch does not contain value" $
      member (-1) (T (T E 1 E) 2 E) `shouldBe` False
-    describe "member2" $ do
-      it "return False when empty" $
-        member2 1 E `shouldBe` False
-      it "return True when node contains value" $
-        member2 1 (T E 1 E) `shouldBe` True
-      it "return True when right branch contains value" $
-        member2 2 (T E 1 (T E 2 E)) `shouldBe` True
-      it "return True when left branch contains value" $
-        member2 1 (T (T E 1 E) 2 E) `shouldBe` True
-      it "return False when right branch does not contain value" $
-        member2 3 (T E 1 (T E 2 E)) `shouldBe` False
-      it "return False when left branch does not contain value" $
-        member2 (-1) (T (T E 1 E) 2 E) `shouldBe` False     
+
+  describe "member2" $ do
+    it "return False when empty" $
+      member2 1 E `shouldBe` False
+    it "return True when node contains value" $
+      member2 1 (T E 1 E) `shouldBe` True
+    it "return True when right branch contains value" $
+      member2 2 (T E 1 (T E 2 E)) `shouldBe` True
+    it "return True when left branch contains value" $
+      member2 1 (T (T E 1 E) 2 E) `shouldBe` True
+    it "return False when right branch does not contain value" $
+      member2 3 (T E 1 (T E 2 E)) `shouldBe` False
+    it "return False when left branch does not contain value" $
+      member2 (-1) (T (T E 1 E) 2 E) `shouldBe` False
+
+  describe "complete" $ do
+    it "returns E when d = 0" $
+      complete 1 0 `shouldBe` E
+    it "returns T E 1 E when d = 1" $
+      complete 1 1 `shouldBe` T E 1 E
+    it "returns a tree which node is filled with 1 when d = 3" $
+      complete 1 3 `shouldBe` T (T (T E 1 E) 1 (T E 1 E)) 1 (T (T E 1 E) 1 (T E 1 E))

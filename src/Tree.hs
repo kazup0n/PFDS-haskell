@@ -47,3 +47,11 @@ insert3 x t = fromMaybe t (insert3' t)
                       | otherwise -> Just $ T left y (T E x E)
                     _ -> Just $ T left y (insert3 x right)
       | otherwise = Just $ T (insert3 x left)  y right
+
+-- exersise 2.5 (a)
+complete :: Ord a => a -> Int -> Tree a
+complete x 1 = T E x E
+complete x n | n <= 0 = E
+             | otherwise = T sub x sub
+  where
+    sub = complete x (n - 1)
