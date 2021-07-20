@@ -35,3 +35,15 @@ insert2 x t = fromMaybe t (insert2' t)
     | x < y = Just $ T (insert2 x left) y right
     | x > y = Just $ T left y (insert2 x right)
     | otherwise = Nothing
+
+-- exersize 2.4
+insert3 :: Ord a => a -> Tree a -> Tree a
+insert3 x t = fromMaybe t (insert3' t)
+  where
+    insert3' E = Just $ T E x E
+    insert3' s@(T left y right)
+      | x >= y = case right of
+                    E | x == y -> Nothing
+                      | otherwise -> Just $ T left y (T E x E)
+                    _ -> Just $ T left y (insert3 x right)
+      | otherwise = Just $ T (insert3 x left)  y right

@@ -1,7 +1,7 @@
 module TreeSpec (spec) where
 
 import Test.Hspec
-import Tree ( insert,member, member2, insert2, Tree(E, T) )
+import Tree ( insert,member, member2, insert2, insert3, Tree(E, T) )
   
 spec :: Spec 
 spec = do 
@@ -26,7 +26,22 @@ spec = do
       insert2 2 (T E 1 (T E 2 E)) `shouldBe` T E 1 (T E 2 E)
     it "returns Nothing for inserting duplicated values in left branch" $
       insert2 1 (T (T E 1 E) 2 E) `shouldBe` T (T E 1 E) 2 E
-      
+
+
+  describe "insert3" $ do
+    it "insert to empty tree" $
+      insert3 1 E `shouldBe` T E 1 E
+    it "insert to non-empty tree" $
+      insert3 2 (T E 1 E) `shouldBe` T E 1 (T E 2 E)
+    it "insert to full branch" $
+      insert3 4 (T (T E 1 E) 2 (T E 3 E)) `shouldBe` T (T E 1 E) 2 (T E 3 (T E 4 E))
+    it "returns Nothing for inserting duplicated values" $
+      insert3 1 (T E 1 E) `shouldBe` T E 1 E
+    it "returns Nothing for inserting duplicated values in right branch" $
+      insert3 2 (T E 1 (T E 2 E)) `shouldBe` T E 1 (T E 2 E)
+    it "returns Nothing for inserting duplicated values in left branch" $
+      insert3 1 (T (T E 1 E) 2 E) `shouldBe` T (T E 1 E) 2 E
+                
 
   describe "member" $ do
     it "return False when empty" $
