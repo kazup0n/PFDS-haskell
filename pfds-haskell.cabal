@@ -26,8 +26,10 @@ source-repository head
 library
   exposed-modules:
       Lib
+      Set
       Stack
       Tree
+      UnbalancedSet
   other-modules:
       Paths_pfds_haskell
   hs-source-dirs:
