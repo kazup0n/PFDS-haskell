@@ -25,10 +25,12 @@ source-repository head
 
 library
   exposed-modules:
+      FiniteMap
       Lib
       Set
       Stack
       Tree
+      UnbalancedMap
       UnbalancedSet
   other-modules:
       Paths_pfds_haskell
@@ -56,6 +58,7 @@ test-suite pfds-haskell-test
   other-modules:
       StackSpec
       TreeSpec
+      UnbalancedMapSpec
       Paths_pfds_haskell
   hs-source-dirs:
       test
