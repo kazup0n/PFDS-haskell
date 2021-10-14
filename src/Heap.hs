@@ -8,7 +8,7 @@ class Heap h where
   findMin :: h a -> Maybe a
   deleteMin :: Ord a => h a -> Maybe (h a)
 
-data HeapT a = E | T Int a (HeapT a) (HeapT a)
+data HeapT a = E | T Int a (HeapT a) (HeapT a) deriving (Show, Eq)
 
 rank :: HeapT a -> Int
 rank E = 0
@@ -19,6 +19,17 @@ makeT x a b =
   if rank a >= rank b
     then T (rank b + 1) x a b
     else T (rank a + 1) x b a
+
+insert2 :: Ord a => a -> HeapT a -> HeapT a
+insert2 x E = T 1 x E E
+-- 任意の左の子のランクが、右の子のランクと同じかそれ 以上である
+-- ノードのランクは、そのノードの右スパイン
+-- (right spine、そのノードから空ノードまでの最も右の経路)の長さとして定義される
+-- x >= y の場合: 右に挿入する
+-- x < y の場合: xを新しい根にしてyを左に挿入する
+insert2 x (T _ y a b) = if x >= y then makeT y a (insert2 x b)
+                                  else makeT x (insert2 y a) b
+
 
 instance Heap HeapT where
   empty = E
