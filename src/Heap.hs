@@ -30,6 +30,15 @@ insert2 x E = T 1 x E E
 insert2 x (T _ y a b) = if x >= y then makeT y a (insert2 x b)
                                   else makeT x (insert2 y a) b
 
+fromList :: Ord a => [a] -> HeapT a
+fromList [] = E
+fromList [a] = T 1 a E E
+fromList as = mergeHeaps $ map (\a -> T 1 a E E) as
+
+mergeHeaps :: Ord a => [HeapT a] -> HeapT a
+mergeHeaps [] = E
+mergeHeaps [f,s] = merge f s
+mergeHeaps [f:s:r] = mergeHeaps (merge f s) r
 
 instance Heap HeapT where
   empty = E

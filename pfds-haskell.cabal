@@ -33,6 +33,7 @@ library
       Tree
       UnbalancedMap
       UnbalancedSet
+      WHeap
   other-modules:
       Paths_pfds_haskell
   hs-source-dirs:
