@@ -38,7 +38,7 @@ fromList as = mergeHeaps $ map (\a -> T 1 a E E) as
 mergeHeaps :: Ord a => [HeapT a] -> HeapT a
 mergeHeaps [] = E
 mergeHeaps [f,s] = merge f s
-mergeHeaps [f:s:r] = mergeHeaps (merge f s) r
+mergeHeaps (f:s:r) = mergeHeaps $ (merge f s) : r
 
 instance Heap HeapT where
   empty = E
