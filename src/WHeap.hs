@@ -30,4 +30,7 @@ module WHeap where
     insert x h = merge (T x E E) h
 
     findMin E = Nothing
-    findMin (T x a b) = Just x
+    findMin (T x _ _) = Just x
+
+    deleteMin E = Nothing
+    deleteMin (T _ a b) = Just $ merge a b
