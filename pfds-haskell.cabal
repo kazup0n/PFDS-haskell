@@ -62,6 +62,7 @@ test-suite pfds-haskell-test
       StackSpec
       TreeSpec
       UnbalancedMapSpec
+      WHeapSpec
       Paths_pfds_haskell
   hs-source-dirs:
       test
