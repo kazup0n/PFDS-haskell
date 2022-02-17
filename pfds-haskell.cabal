@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      BinomialHeap
       FiniteMap
       Heap
       Lib
@@ -71,4 +72,6 @@ test-suite pfds-haskell-test
       base >=4.7 && <5
     , hspec
     , pfds-haskell
+    , tasty
+    , tasty-hspec
   default-language: Haskell2010

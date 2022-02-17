@@ -25,7 +25,7 @@ instance Heap WHeap where
   merge h@T {} E = h
   merge E h@T {} = h
   merge h1@(T x a1 b1) h2@(T y a2 b2)
-    | x <= y = -- yが大きい場合:
+    | x <= y = -- yが大きい場合: x 2, y 1
     -- 小さい方(x) をルートにして
     -- 1. b1(左側)と大きい方のツリーをマージ
     -- 2. a1と接続する; a1 と1のrankの大きい方を左に寄せる
@@ -34,9 +34,9 @@ instance Heap WHeap where
     -- そのため
     -- 1. 当該部分木にアクセスしなければ評価しなくてもいい
     -- 2. 変更されないので並列に処理できる
-      if rank a1 >= rank b1 + rank h2 then T y a1 (merge b1 h2) else T y (merge b1 h2) a1
-    | rank a2 >= rank h1  + rank b2 = T x (merge h1 b2) a2
-    | otherwise = T y a2 (merge b1 h2)
+      if rank a1 >= rank b1 + rank h2 then T x a1 (merge b1 h2) else T x (merge b1 h2) a1
+    | rank a2 >= rank h1  + rank b2 = T y a2 (merge h1 b2)
+    | otherwise = T y (merge h1 b2) a2
 
   insert x h = merge (T x E E) h
 
