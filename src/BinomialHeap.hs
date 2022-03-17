@@ -1,21 +1,23 @@
 module BinomialHeap where
 
-data Tree a = Node Int a [Tree a] deriving (Show, Eq)
+data Tree a = Node a [Tree a] deriving (Show, Eq)
 
-link :: (Ord a) => Tree a -> Tree a -> Tree a
-link t1@(Node r x1 c1) t2@(Node _ x2 c2) = if x1 <= x2 then Node (r + 1) x1 (t2 : c1) else Node (r + 1) x2 (t1 : c2)
+link :: (Ord a) => TreeR a -> TreeR a -> TreeR a
+link (r, t1@(Node x1 c1)) (_, t2@(Node x2 c2)) = if x1 <= x2 then (r + 1, Node x1 (t2 : c1)) else (r + 1, Node x2 (t1 : c2))
 
-type Heap a = [Tree a]
+type TreeR a = (Int, Tree a)
 
-rank :: (Ord a) => Tree a -> Int
-rank (Node r _ _) = r
+type Heap a = [TreeR a]
 
-insTree :: (Ord a) => Tree a -> Heap a -> Heap a
+rank :: (Ord a) => TreeR a -> Int
+rank (r, Node _ _) = r
+
+insTree :: (Ord a) => TreeR a -> Heap a -> Heap a
 insTree t [] = [t]
 insTree t ts@(t' : ts') = if rank t < rank t' then t : ts else insTree (link t t') ts'
 
 insert :: (Ord a) => a -> Heap a -> Heap a
-insert x = insTree (Node 0 x [])
+insert x = insTree (0, Node x [])
 
 merge :: (Ord a) => Heap a -> Heap a -> Heap a
 merge ts1 [] = ts1
@@ -25,24 +27,14 @@ merge ts1@(t1 : ts1') ts2@(t2 : ts2')
   | rank t2 < rank t1 = t2 : merge ts1 ts2'
   | otherwise = insTree (link t1 t2) (merge ts1' ts2')
 
-removeMinTree :: (Ord a) => Heap a -> Maybe (Tree a, Heap a)
-removeMinTree [] = Nothing
-removeMinTree [t] = Just (t, [])
-removeMinTree (t : ts) =
-  let f (t', ts') = if root t < root t' then (t, ts) else (t', t : ts')
-   in f <$> removeMinTree ts
-
-findMin :: (Ord a) => Heap a -> Maybe a
-findMin ts = root . fst <$> removeMinTree ts
-
 -- removeMInTreeを経由しないfindMin
 findMin2 :: (Ord a) => Heap a -> Maybe a
 findMin2 [] = Nothing
 findMin2 [t] = Just $ root t
 findMin2 (t: ts) = min (root t) <$> findMin2 ts
 
-root :: Tree a -> a
-root (Node _ a _) = a
+root :: TreeR a -> a
+root (_, Node  a _) = a
 
 empty :: (Ord a) => Heap a
 empty = []
