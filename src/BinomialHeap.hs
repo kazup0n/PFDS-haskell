@@ -35,6 +35,12 @@ removeMinTree (t : ts) =
 findMin :: (Ord a) => Heap a -> Maybe a
 findMin ts = root . fst <$> removeMinTree ts
 
+-- removeMInTreeを経由しないfindMin
+findMin2 :: (Ord a) => Heap a -> Maybe a
+findMin2 [] = Nothing
+findMin2 [t] = Just $ root t
+findMin2 (t: ts) = min (root t) <$> findMin2 ts
+
 root :: Tree a -> a
 root (Node _ a _) = a
 

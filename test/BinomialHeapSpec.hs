@@ -4,6 +4,9 @@ import BinomialHeap
 import Lib
 import Test.Hspec
 
+e :: Heap Int
+e = []
+
 spec :: Spec
 spec = do
   describe "insert" $ do
@@ -27,5 +30,14 @@ spec = do
   describe "findMin" $ do
     it "returns 1 when tree contains 5 2 1" $ do
       findMin (insert 5 (insert 2 (insert 1 empty))) `shouldBe` Just 1
-    it "returns 1 when tree contains 99,17,21,5" $ do
+    it "returns 5 when tree contains 99,17,21,5" $ do
       findMin (insert 5 (insert 99 (insert 18 (insert 21 empty)))) `shouldBe` Just 5
+  describe "findMin2" $ do
+    it "returns 1 when tree contains 5 2 1" $ do
+      findMin2 (insert 5 (insert 2 (insert 1 empty))) `shouldBe` Just 1
+    it "returns 5 when tree contains 99,17,21,5" $ do
+      findMin2 (insert 5 (insert 99 (insert 18 (insert 21 empty)))) `shouldBe` Just 5
+    it "returns Nothing when empty" $ do
+      findMin2 e `shouldBe` Nothing
+    it "returns Just 1" $ do
+      findMin2 (insert 1 empty) `shouldBe` Just 1
