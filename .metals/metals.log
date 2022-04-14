@@ -1,0 +1,1467 @@
+2022.04.07 08:51:55 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/PFDS-haskell/.metals/lsp.trace.json or /home/codespace/.cache/metals/lsp.trace.json
+2022.04.07 08:51:56 INFO  logging to file /workspaces/PFDS-haskell/.metals/metals.log
+2022.04.07 08:51:56 INFO  Started: Metals version 0.11.2 in workspace '/workspaces/PFDS-haskell' for client Visual Studio Code 1.66.0.
+2022.04.07 08:51:56 INFO  Parse release: 11.0.8
+2022.04.07 08:52:00 INFO  time: initialize in 4.37s
+2022.04.07 08:52:01 WARN  Build server is not auto-connectable.
+2022.04.07 08:52:01 WARN  no build tool detected in workspace '/workspaces/PFDS-haskell'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.04.07 08:52:03 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:52:32 INFO  no build target found for /workspaces/PFDS-haskell/src/ExplicitMin.scala. Using presentation compiler with project's scala-library version: 3.1.1
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2022.04.07 08:52:32 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2022.04.07 08:52:32 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+2022.04.07 08:52:32 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57
+2022.04.07 08:52:32 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 66
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 90
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 96
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 100
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 104
+2022.04.07 08:52:32 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 107
+Apr 07, 2022 8:52:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 108
+2022.04.07 08:52:32 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 116
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 123
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 126
+2022.04.07 08:52:32 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 132
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 130
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 140
+2022.04.07 08:52:32 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 156
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 171
+2022.04.07 08:52:32 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 189
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 194
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 195
+2022.04.07 08:52:32 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 199
+Apr 07, 2022 8:52:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 200
+2022.04.07 08:52:35 INFO  time: code lens generation in 1.34s
+2022.04.07 08:52:35 INFO  time: code lens generation in 1.66s
+2022.04.07 08:52:35 INFO  time: code lens generation in 1.63s
+2022.04.07 08:52:35 INFO  time: code lens generation in 1.88s
+2022.04.07 08:52:35 INFO  time: code lens generation in 1.91s
+2022.04.07 08:52:35 INFO  time: code lens generation in 2.01s
+2022.04.07 08:52:35 INFO  time: code lens generation in 2.08s
+2022.04.07 08:52:35 INFO  time: code lens generation in 2.11s
+2022.04.07 08:52:35 INFO  time: code lens generation in 2.17s
+2022.04.07 08:52:35 INFO  time: code lens generation in 2.28s
+2022.04.07 08:52:35 INFO  time: code lens generation in 2.36s
+2022.04.07 08:52:35 INFO  time: code lens generation in 2.44s
+2022.04.07 08:52:35 INFO  time: code lens generation in 2.58s
+2022.04.07 08:52:35 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:52:37 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:52:40 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:52:44 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:52:49 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:52:52 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:52:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/src/ExplicitMin.scala:10: error: unclosed character literal
+    let h' = insert a h
+         ^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/src/ExplicitMin.scala:10: error: unclosed character literal
+    let h' = insert a h
+         ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/src/ExplicitMin.scala:10: error: unclosed character literal
+    let h' = insert a h
+         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:477)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:482)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:251)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:193)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 07, 2022 8:52:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 336
+2022.04.07 08:53:01 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:53:03 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:53:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 371
+Apr 07, 2022 8:53:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 375
+Apr 07, 2022 8:53:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 405
+2022.04.07 08:53:11 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:53:13 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:53:15 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:53:18 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+Apr 07, 2022 8:53:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/src/ExplicitMin.scala:14: error: unclosed character literal
+    h' <- deleteMin h
+     ^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/src/ExplicitMin.scala:14: error: unclosed character literal
+    h' <- deleteMin h
+     ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/src/ExplicitMin.scala:14: error: unclosed character literal
+    h' <- deleteMin h
+     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:477)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:482)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:251)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:193)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 07, 2022 8:53:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 466
+2022.04.07 08:53:28 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:53:29 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:53:31 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:54:03 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:54:06 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:54:09 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:54:12 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:54:15 WARN  no build target for: /workspaces/PFDS-haskell/src/ExplicitMin.scala
+2022.04.07 08:54:36 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:54:43 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:54:47 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:54:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 685
+2022.04.07 08:54:54 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:54:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 07, 2022 8:54:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 07, 2022 8:54:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 07, 2022 8:54:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 07, 2022 8:54:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 07, 2022 8:54:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 07, 2022 8:54:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:10: error: expected identifier; obtained eof
+final case class 
+                 ^
+final case class 
+                 ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+2022.04.07 08:54:56 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:54:58 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:01 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:03 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:05 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:08 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:11 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:14 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:16 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:24 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:55:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 827
+Apr 07, 2022 8:55:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 829
+Apr 07, 2022 8:55:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 828
+2022.04.07 08:55:29 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:55:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 07, 2022 8:55:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 07, 2022 8:55:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Apr 07, 2022 8:55:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:11: error: expected identifier; obtained eof
+
+^
+
+^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+2022.04.07 08:55:31 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:36 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:38 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:45 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:46 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:55:50 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:56:03 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:56:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1029
+2022.04.07 08:56:10 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:56:12 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:56:14 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:56:18 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:56:21 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:56:27 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:56:31 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:57:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1177
+Apr 07, 2022 8:57:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1179
+Apr 07, 2022 8:57:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1180
+2022.04.07 08:57:13 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:57:24 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:57:27 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:57:32 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:57:50 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:57:57 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:57:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: expected identifier; obtained trait
+sealed trait  trait ExplicitMin
+              ^
+sealed trait  trait ExplicitMin
+              ^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: expected identifier; obtained trait
+sealed trait  trait ExplicitMin
+              ^
+sealed trait  trait ExplicitMin
+              ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: expected identifier; obtained trait
+sealed trait  trait ExplicitMin
+              ^
+sealed trait  trait ExplicitMin
+              ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+2022.04.07 08:58:00 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:58:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: expected identifier; obtained trait
+sealed trait  trait ExplicitMin
+              ^
+sealed trait  trait ExplicitMin
+              ^
+java.util.concurrent.CompletionException: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: expected identifier; obtained trait
+sealed trait  trait ExplicitMin
+              ^
+sealed trait  trait ExplicitMin
+              ^
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: file:///workspaces/PFDS-haskell/scala/ExplicitMin.scala:9: error: expected identifier; obtained trait
+sealed trait  trait ExplicitMin
+              ^
+sealed trait  trait ExplicitMin
+              ^
+	at scala.meta.internal.mtags.ScalaToplevelMtags.fail(ScalaToplevelMtags.scala:358)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.newIdentifier(ScalaToplevelMtags.scala:343)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:245)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:118)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:50)
+	at scala.meta.internal.mtags.MtagsIndexer.index(MtagsIndexer.scala:19)
+	at scala.meta.internal.mtags.MtagsIndexer.index$(MtagsIndexer.scala:18)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.index(ScalaToplevelMtags.scala:40)
+	at scala.meta.internal.mtags.Mtags$.allToplevels(Mtags.scala:96)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:232)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:193)
+	at scala.Option.orElse(Option.scala:447)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:193)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:188)
+	at scala.meta.internal.metals.DocumentHighlightProvider.$anonfun$documentHighlight$1(DocumentHighlightProvider.scala:33)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.DocumentHighlightProvider.documentHighlight(DocumentHighlightProvider.scala:29)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$documentHighlights$1(MetalsLanguageServer.scala:1451)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+2022.04.07 08:58:01 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:04 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:10 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:13 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:58:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1493
+2022.04.07 08:58:21 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:26 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:28 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:31 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:34 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:37 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:41 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:43 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:46 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:50 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:58:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1709
+2022.04.07 08:58:55 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:58:56 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:58:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1764
+2022.04.07 08:58:59 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 8:58:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1768
+Apr 07, 2022 8:58:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1769
+2022.04.07 08:59:03 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:08 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:11 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:22 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:25 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:28 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Exception in thread "pool-3-thread-1" java.lang.AssertionError: assertion failed: duplicate child annotation class E / object E
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:480)
+	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:487)
+	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:865)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:874)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:874)
+	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:781)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:168)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:188)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:190)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:370)
+	at dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2721)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2746)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2841)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2907)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2911)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2933)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:2983)
+	at dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2426)
+	at dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:2767)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2771)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2841)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2907)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2911)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:2933)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:2983)
+	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2553)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2812)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2842)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2907)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:2911)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3027)
+	at dotty.tools.dotc.typer.TyperPhase.liftedTree1$1(TyperPhase.scala:56)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:62)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:411)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:63)
+	at dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$1(TyperPhase.scala:106)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:106)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:261)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1328)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:272)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:280)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:68)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:289)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:222)
+	at dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:163)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:39)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:91)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.04.07 08:59:33 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:38 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:41 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:43 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:47 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:49 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:52 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 08:59:54 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:00:00 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:00:20 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:00:21 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:00:29 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:00:33 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 9:00:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2124
+2022.04.07 09:00:46 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 9:00:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2172
+2022.04.07 09:00:53 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:00:56 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:01:04 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:01:13 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:01:55 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:01:57 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:02:00 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:02:03 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:02:33 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 9:02:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2428
+2022.04.07 09:02:39 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:02:46 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 07, 2022 9:02:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2477
+2022.04.07 09:02:48 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:02:50 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:02:53 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:02:59 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:02 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:07 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:10 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:16 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:18 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:22 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:26 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:32 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:45 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:47 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:51 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:55 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:03:57 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:04:02 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.07 09:04:07 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:46:49 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/PFDS-haskell/.metals/lsp.trace.json or /home/codespace/.cache/metals/lsp.trace.json
+2022.04.14 08:46:50 INFO  logging to file /workspaces/PFDS-haskell/.metals/metals.log
+2022.04.14 08:46:50 INFO  Started: Metals version 0.11.2 in workspace '/workspaces/PFDS-haskell' for client Visual Studio Code 1.66.2.
+2022.04.14 08:46:50 INFO  Parse release: 11.0.8
+2022.04.14 08:46:53 INFO  time: initialize in 2.56s
+2022.04.14 08:46:57 WARN  Build server is not auto-connectable.
+2022.04.14 08:46:57 WARN  no build tool detected in workspace '/workspaces/PFDS-haskell'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.04.14 08:46:58 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:47:24 INFO  no build target found for /workspaces/PFDS-haskell/scala/ExplicitMin.scala. Using presentation compiler with project's scala-library version: 3.1.1
+Apr 14, 2022 8:47:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Apr 14, 2022 8:47:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Apr 14, 2022 8:47:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Apr 14, 2022 8:47:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Apr 14, 2022 8:47:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Apr 14, 2022 8:47:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+2022.04.14 08:47:25 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:47:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+Apr 14, 2022 8:47:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Apr 14, 2022 8:47:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+2022.04.14 08:47:25 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:47:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57
+2022.04.14 08:47:25 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:47:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+Apr 14, 2022 8:47:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 75
+2022.04.14 08:47:25 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:47:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 86
+2022.04.14 08:47:25 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:47:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+Apr 14, 2022 8:47:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 106
+2022.04.14 08:47:25 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:47:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 110
+Apr 14, 2022 8:47:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+Apr 14, 2022 8:47:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+2022.04.14 08:47:25 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:47:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 130
+Apr 14, 2022 8:47:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 144
+2022.04.14 08:47:26 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:47:29 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:47:29 INFO  time: code lens generation in 1.63s
+2022.04.14 08:47:29 INFO  time: code lens generation in 3.17s
+2022.04.14 08:47:29 INFO  time: code lens generation in 3.27s
+2022.04.14 08:47:29 INFO  time: code lens generation in 3.35s
+2022.04.14 08:47:29 INFO  time: code lens generation in 3.59s
+2022.04.14 08:47:29 INFO  time: code lens generation in 3.69s
+2022.04.14 08:47:29 INFO  time: code lens generation in 3.82s
+2022.04.14 08:47:29 INFO  time: code lens generation in 3.87s
+2022.04.14 08:47:29 INFO  time: code lens generation in 3.98s
+2022.04.14 08:47:29 INFO  time: code lens generation in 4.19s
+2022.04.14 08:47:29 INFO  time: code lens generation in 4.04s
+2022.04.14 08:47:29 INFO  time: code lens generation in 3.92s
+2022.04.14 08:47:29 INFO  time: code lens generation in 4.18s
+2022.04.14 08:47:31 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:47:33 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:47:37 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:47:47 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:47:49 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:47:55 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:10 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:22 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:28 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:30 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:33 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:34 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:36 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:39 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:43 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:46 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:50 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:48:54 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:00 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:07 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:14 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:16 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:19 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:22 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:26 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:29 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:32 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:39 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:49:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 648
+2022.04.14 08:49:42 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:45 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:49:52 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.4.0/scalafmt-core_2.12-3.4.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.4.0/scalafmt-core_2.12-3.4.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.12/3.4.0/scalafmt-config_2.12-3.4.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.4.0/scalafmt-sysops_2.12-3.4.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.4.33/scalameta_2.12-4.4.33.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.12/3.4.0/scalafmt-config_2.12-3.4.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.4.33/scalameta_2.12-4.4.33.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.4.0/scalafmt-sysops_2.12-3.4.0.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.15/metaconfig-typesafe-config_2.12-0.9.15.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.15/metaconfig-core_2.12-0.9.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.4.33/parsers_2.12-4.4.33.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.15/metaconfig-typesafe-config_2.12-0.9.15.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.15/metaconfig-core_2.12-0.9.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.4.33/parsers_2.12-4.4.33.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.4.33/trees_2.12-4.4.33.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.5.0/scala-collection-compat_2.12-2.5.0.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.6.6/pprint_2.12-0.6.6.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.6.6/pprint_2.12-0.6.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.5.0/scala-collection-compat_2.12-2.5.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.4.33/trees_2.12-4.4.33.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.4.33/common_2.12-4.4.33.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.2.7/sourcecode_2.12-0.2.7.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.14/fansi_2.12-0.2.14.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.14/fansi_2.12-0.2.14.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.2.7/sourcecode_2.12-0.2.7.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.4.33/common_2.12-4.4.33.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.6.5/geny_2.12-0.6.5.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.6.5/geny_2.12-0.6.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.4.33/parsers_2.12-4.4.33.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.4.33/trees_2.12-4.4.33.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.15/metaconfig-typesafe-config_2.12-0.9.15.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.15/metaconfig-core_2.12-0.9.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.4.0/scalafmt-core_2.12-3.4.0.jar
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.2.7/sourcecode_2.12-0.2.7.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.9.15/metaconfig-typesafe-config_2.12-0.9.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.4.0/scalafmt-sysops_2.12-3.4.0.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.9.15/metaconfig-core_2.12-0.9.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.4.33/common_2.12-4.4.33.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.2.7/sourcecode_2.12-0.2.7.jar
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.6.5/geny_2.12-0.6.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.4.0/scalafmt-sysops_2.12-3.4.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.12/3.4.0/scalafmt-config_2.12-3.4.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.12/3.4.0/scalafmt-config_2.12-3.4.0.jar
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.6.6/pprint_2.12-0.6.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.4.33/parsers_2.12-4.4.33.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.4.33/scalameta_2.12-4.4.33.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/geny_2.12/0.6.5/geny_2.12-0.6.5.jar
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.14/fansi_2.12-0.2.14.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.4.33/trees_2.12-4.4.33.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.4.33/scalameta_2.12-4.4.33.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.12/0.2.14/fansi_2.12-0.2.14.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.5.0/scala-collection-compat_2.12-2.5.0.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.12/0.6.6/pprint_2.12-0.6.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.4.0/scalafmt-core_2.12-3.4.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.12/4.4.33/common_2.12-4.4.33.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.5.0/scala-collection-compat_2.12-2.5.0.jar
+2022.04.14 08:50:08 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:50:28 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:50:31 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:50:37 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:50:41 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:50:42 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:50:44 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:50:46 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:50:48 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:50:55 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:51:13 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:51:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 891
+2022.04.14 08:51:16 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:51:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 932
+2022.04.14 08:51:21 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:51:29 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:51:31 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:51:38 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:51:41 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:51:51 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:51:55 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:51:56 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:52:17 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:52:21 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:52:36 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:52:39 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:52:42 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:52:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1223
+Apr 14, 2022 8:52:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1235
+2022.04.14 08:52:46 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:52:51 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:52:55 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:00 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:01 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:03 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:05 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:07 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:14 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:18 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:22 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:24 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:26 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:27 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:53:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1498
+2022.04.14 08:53:30 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:53:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1509
+2022.04.14 08:53:36 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:39 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:53:45 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:54:07 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:54:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1622
+2022.04.14 08:54:11 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:54:16 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:54:21 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:54:22 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:54:24 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:54:29 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:54:30 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:54:41 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:54:48 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:54:49 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:54:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1846
+2022.04.14 08:54:53 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:54:56 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:54:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1897
+Apr 14, 2022 8:54:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1898
+2022.04.14 08:55:03 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:55:06 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:55:11 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:55:16 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:55:31 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:55:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2110
+2022.04.14 08:55:42 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:55:43 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:55:45 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:55:47 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:55:52 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:55:54 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:55:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2212
+2022.04.14 08:55:57 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:01 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:56:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2247
+Apr 14, 2022 8:56:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2248
+2022.04.14 08:56:06 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:13 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:15 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:16 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:19 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:26 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:27 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:33 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:36 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:42 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:49 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:53 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:56:59 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:57:02 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:57:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2580
+2022.04.14 08:57:08 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:57:14 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:57:17 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:57:21 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:57:23 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:57:27 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:57:30 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:57:35 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:57:36 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:57:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2748
+2022.04.14 08:57:46 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 8:57:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2791
+2022.04.14 08:57:59 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:58:06 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:58:09 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:59:54 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 08:59:58 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 09:00:07 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 09:00:13 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 09:00:19 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 09:00:32 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+Apr 14, 2022 9:00:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2974
+2022.04.14 09:00:35 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 09:00:36 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 09:00:39 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 09:00:49 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 09:00:52 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
+2022.04.14 09:01:45 WARN  no build target for: /workspaces/PFDS-haskell/scala/ExplicitMin.scala
