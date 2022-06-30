@@ -52,7 +52,7 @@ object ExplicitMin {
         case T(a, hh) =>
           heap.deleteMin(hh).map { case (hhh, min) =>
             (T(min, hhh), a)
-          }
+          }.orElse(Some((E(), a)))
       }
     }
 }

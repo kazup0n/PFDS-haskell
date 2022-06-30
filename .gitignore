@@ -1,2 +1,10 @@
 .stack-work/
 *~
+.metals/
+.bloop
+project/project/
+project/.bloop/
+.bsp/
+target/
+project/target/
+.metals/
