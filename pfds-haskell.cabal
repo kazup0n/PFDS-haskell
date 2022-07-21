@@ -30,6 +30,7 @@ library
       FiniteMap
       Heap
       Lib
+      RBTree
       Set
       Stack
       Tree
