@@ -63,6 +63,7 @@ test-suite pfds-haskell-test
   other-modules:
       BinomialHeapSpec
       HeapSpec
+      RBTreeSpec
       StackSpec
       TreeSpec
       UnbalancedMapSpec
