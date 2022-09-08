@@ -33,6 +33,7 @@ library
       RBTree
       Set
       Stack
+      Stream
       Tree
       UnbalancedMap
       UnbalancedSet
@@ -65,6 +66,7 @@ test-suite pfds-haskell-test
       HeapSpec
       RBTreeSpec
       StackSpec
+      StreamSpec
       TreeSpec
       UnbalancedMapSpec
       WHeapSpec
