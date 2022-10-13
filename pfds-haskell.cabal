@@ -30,6 +30,7 @@ library
       FiniteMap
       Heap
       Lib
+      Queue
       RBTree
       Set
       Stack
@@ -64,6 +65,7 @@ test-suite pfds-haskell-test
   other-modules:
       BinomialHeapSpec
       HeapSpec
+      QueueSpec
       RBTreeSpec
       StackSpec
       StreamSpec
