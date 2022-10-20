@@ -33,6 +33,7 @@ library
       Queue
       RBTree
       Set
+      SprayHeap
       Stack
       Stream
       Tree
@@ -67,6 +68,7 @@ test-suite pfds-haskell-test
       HeapSpec
       QueueSpec
       RBTreeSpec
+      SprayHeapSpec
       StackSpec
       StreamSpec
       TreeSpec
