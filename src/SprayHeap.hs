@@ -58,3 +58,18 @@ partition pivot t@(T a x b)
         | otherwise ->
           let (small, big) = partition pivot a1
            in (small, T big y (T a2 x b))
+
+merge :: Ord a => Tree a -> Tree a -> Tree a
+merge E t = t
+merge (T a x b) t = let (ta, tb) = partition x t
+                    in T (merge ta a) x (merge tb b)
+
+findMin :: Ord a => Tree a -> Maybe a
+findMin (T E x b) = Just x
+findMin (T a x b) = findMin a
+findMin _ = Nothing
+
+deleteMin :: Ord a => Tree a -> Maybe (Tree a)
+deleteMin (T (T E x b) y c) = Just $ T b y c
+deleteMin (T (T a x b) y c) = fmap (\l -> T l x (T b y c)) (deleteMin a)
+deleteMin _ = Nothing
