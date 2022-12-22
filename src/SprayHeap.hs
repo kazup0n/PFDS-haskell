@@ -8,10 +8,38 @@ data Tree a
 insert :: Ord a => a -> Tree a -> Tree a
 insert x t = T (smaller x t) x (bigger x t)
 
-insert2 :: Ord a => a -> Tree a -> Tree a
+insert2 :: Ord a => a -> Tree a -> (Tree a, [a])
 insert2 x t =
-  let (small, big) = partition x t
-   in T small x big
+  let (small, big, as) = partition2 x t
+   in (T small x big, as)
+
+partition2 :: Ord a => a -> Tree a -> (Tree a, Tree a, [a])
+partition2 pivot E = (E, E, [])
+partition2 pivot t@(T a x b)
+  -- 右の部分木を走査する(大きいのは右にある)
+  | x <= pivot =
+    case b of
+      E -> (t, E, [x]) -- 右が空の場合はtにはピボットより小さいのしかない
+      T b1 y b2
+        | y <= pivot ->
+          -- 右の部分木b2を走査する(pivotより大きいのは右にしかない)
+          let (small, big, as) = partition2 pivot b2
+           in (T (T a x b1) y small, big, [x, y] ++ as)
+        | otherwise ->
+          -- 左の部分木を走査する(右ノードにもpivotより大きいのが残っているかも)
+          let (small, big, as) = partition2 pivot b1
+           in (T a x small, T big y b2, [x, y] ++ as)
+  -- 左の部分木を走査する(小さいのは左)
+  | otherwise =
+    case a of
+      E -> (E, t, [x])
+      T a1 y a2
+        | y <= pivot ->
+          let (small, big, as) = partition2 pivot a2
+           in (T a1 y small, T big x b, [y, x] ++ as)
+        | otherwise ->
+          let (small, big, as) = partition2 pivot a1
+           in (small, T big y (T a2 x b), [y, x] ++ as)
 
 bigger :: Ord a => a -> Tree a -> Tree a
 bigger _ E = E
@@ -61,8 +89,9 @@ partition pivot t@(T a x b)
 
 merge :: Ord a => Tree a -> Tree a -> Tree a
 merge E t = t
-merge (T a x b) t = let (ta, tb) = partition x t
-                    in T (merge ta a) x (merge tb b)
+merge (T a x b) t =
+  let (ta, tb) = partition x t
+   in T (merge ta a) x (merge tb b)
 
 findMin :: Ord a => Tree a -> Maybe a
 findMin (T E x b) = Just x
